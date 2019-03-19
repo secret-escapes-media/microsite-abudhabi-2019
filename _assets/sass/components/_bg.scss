@@ -1,0 +1,23 @@
+// background styles
+
+.bg {
+  &--white { background-color: $white; }
+  &--light { background-color: $grey-lightest; }
+  &--f-blue { background-color: $f-blue; }
+  &--f-sand { background-color: $f-sand; }
+  &--f-red { background-color: $f-red; }
+  &--f-lightblue { background-color: $f-lightblue; }
+  &--i-black { background-color: $black; }
+  &--dark  { background-color: $grey-dark; }
+  &--img   { @include background-attributes; }
+  &__fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-background;
+    @include background-attributes;
+    background-color: $grey-darker;
+  }
+}
