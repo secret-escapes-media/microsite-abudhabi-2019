@@ -2,12 +2,28 @@
 
 .bg {
   &--white { background-color: $white; }
-  &--light { background-color: $grey-lightest; }
-  &--f-blue { background-color: $f-blue; }
-  &--f-sand { background-color: $f-sand; }
-  &--f-red { background-color: $f-red; }
-  &--f-lightblue { background-color: $f-lightblue; }
-  &--i-black { background-color: $black; }
+  &--light { background-color: $grey-lightest }
+  &--light-alpha { background-color: rgba($black, .08); }
+  &--bv-red { background-color: $bv-red; }
+  &--bv-blue { background-color: $bv-blue; }
+  &--black  { background-color: $black; }
+  &--black-alpha  {
+
+    background-color: rgba($black, 1);
+
+    @include bp($xl){
+    background-color: rgba($black, .8);
+    border-bottom: 4px solid #c30e2e;}
+  }
+  &--black-mob  {
+
+    background-color: rgba($black, 1);
+    border-bottom: 4px solid #c30e2e;
+
+    @include bp($xl){
+    background-color: rgba($black, 0);
+    border-bottom: none;}
+  }
   &--dark  { background-color: $grey-dark; }
   &--img   { @include background-attributes; }
   &__fixed {

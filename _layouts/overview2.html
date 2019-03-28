@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+
+<div class=" vpad--xl bg--light-alpha bv-bg-pattern" id="top"  style="z-index: 999; background-image: url('{{site.img}}/icons/bg-pattern.png');  ">
+  <div class="container">
+    <div class="width width--lg text--left text--black " >
+       <div class="text--md text--justify">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row row--xl-6-6  row--no-gutters ">
+    <div class=" col--xl-5  " >
+      <div class="vpad--md">
+        <div class="width width--lg bv-hpad">
+          <div class="space--xl"></div>
+          <h1 class="title title--lg ">Highlights</h1>
+          <div class="space--xl"></div>
+          <h2 class="text text--xxl ">Klicken Sie auf die interaktive Karte</h2>
+          <div class="space--md"></div>
+          <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--bv-red bv-mob-show" >Karte öffnen</div>
+          <div class="space--md"></div>
+          <div class="text text--xl text--bolder">Legende</div>
+          <div class="bv-abenteuer text text--md text--normal">Für Abenteurer</div>
+          <div class="bv-kultur text text--md text--normal">Für Kulturliebhaber</div>
+          <div class="bv-natur text text--md text--normal">Für Naturmenschen</div>
+          <div class="bv-cities text text--md text--normal">Für Stadtmenschen</div>
+          <div class="space--xl"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col col--xl-7 bv-modal" id="bv-myModal" >
+             <div class="bv-close" ></div>
+         <div class="bv-modal-content-details">
+           <div class="map"  id="map"></div>
+         </div>
+
+  </div>
+</div>
+
+
+
+
+
+ <script>
+
+
+
+// Get the modal
+var modal = document.getElementById('bv-myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("bv-myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("bv-close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  //alert (modal);
+  modal.style.display = "block";
+    $('body').addClass('bv-disable-scroll');
+
+    $('#bv-myModal').on('shown.bs.modal', function() {
+          map.resize();
+        });
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+      $('body').removeClass('bv-disable-scroll');
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+        $('body').removeClass('bv-disable-scroll');
+  }
+}
+
+
+
+</script>
+
+
+  {% include page/map/map.html %}

@@ -1,25 +1,48 @@
 - id: one
-  title: Die Bajan und der&nbsp;Rhytmus
-  img: bg-img1
-  description: "Bunte Stoffe, duftende Gewürze und fröhliche Musik: Die Kultur der Bajan ist eine Mischung aus britischem Kolonialismus und westafrikanischer Gelassenheit. Durch Einflüsse aus der Plantagen-Sklaverei entstand eine besondere musikalische Richtung, wie die der traditionellen Tuk-Bands, die nicht nur zu Festen aufspielen. Der Musikstil auf der Insel Barbados ist von vielen Einflüssen aus der Karibik geprägt. Von Soca, Calypso bis Mento. Diese lebhaften Rhythmen laden immer und überall zum Mittanzen ein und machen es fast unmöglich, still sitzen zu bleiben. Was auch immer Sie bewegt, an den vielen musikalischen Festivals kommen Sie nicht vorbei: Lauschen Sie dem Gospel-Wettsingen oder schwingen Ihre Tanzbeine auf dem Reggae-Festival. Fröhliche Klänge und eine bunte Parade bestaunen Sie auf dem&nbsp;Holetown-Festival. "
-
-
+  title: Scheich-Zayid-Moschee
+  img: bg-one
+  description: "Wie ein Gesamtkunstwerk aus 1001 Nacht leuchtet das elfenbeinfarbene Symbol der islamischen Welt. Das mit strahlendem Marmor, 24-karätigem Blattgold und aufwendigem Kunsthandwerk geschmückte Gotteshaus ist der architektonische Höhepunkt jeder Abu-Dhabi-Reise. Von Samstag bis Donnerstag öffnet sich die Scheich-Zayid-Moschee ihren Besuchern, mit der Ausnahme des Freitagmorgens, der dem Gottesdienst vorgesehen ist.  Das unter Kuppeln und Kronleuchtern thronende Meisterstück wird bei Nacht mithilfe eines einzigartigen Beleuchtungssystems in Szene gesetzt – märchenhaft und fotogen zugleich."
 
 ################################################################################
 
 
 - id: two
-  title: Strandkultur
-  img: bg-img2
-  description: "Auf Barbados spielt sich das Leben draußen ab. Es erwartet Sie ein positives Lebensgefühl, das sich einerseits durch die paradiesische Natur und die vielseitigen kulturellen Möglichkeiten präsentiert. Andererseits durch die Bajan, die Einheimischen, transportiert wird. Sie sind charmant, humorvoll und knüpfen gerne Kontakte, auch mit Besuchern. Ein Gespräch bei Rum und Musik oder ein Volleyball-Match am Strand lässt Fremde dann eventuell sogar zu Freunden werden. So oft wie ihre Strände, besuchen die Einheimischen auch die Kirchen. Die Bajan sind sehr religiöse Inselbewohner: Es gibt fast genauso viele Kirchen wie Rum-Hütten auf der Insel. Gerne wird deshalb nach einem inspirierenden Gospelgottesdienst gleich nebenan in den Rum-Shops weiter&nbsp;gefeiert. "
-
-
+  title: Louvre Abu&nbsp;Dhabi
+  img: bg-two
+  description: "Im Herzen des Kulturbezirks Saadiyat steht der aufsehenerregende Louvre Abu Dhabi. Unter dem verzaubernden Lichtspiel der Kuppel aus Metall-Sternen sehen Sie hier Meisterwerke weltberühmter Künstler. Der französische Stararchitekt Jean Nouvel entwarf das Universalmuseum und schuf ein für die arabische Welt einzigartiges Symbol interkultureller Verständigung. Stetig wechselnde Exponate, die von bedeutenden französischen Museen geliehen werden, machen diesen Pariser Ableger zu einer hochkarätigen Kulturinstitution."
 
 
 ################################################################################
 
 
 - id: three
-  title: "UNESCO Weltkulturerbe: Bridgetown"
-  img: bg-img3
-  description: "Ein UNESCO Weltkulturerbe erkunden Sie bei einem Spaziergang durch das historische Zentrum von Bridgetown: Neben der Militäbaracke sowie einer erstaunlichen Sammlung aus kolonialer und einheimischer Architektur, finden Sie den wunderschön angelegten Park zwischen der geschichtsträchtigen Kulisse. Auch die ältesteste Zuckerrohrplantage der Karibik – Nicholas Abbey, steht auf der UNESCO Liste: Zuerst für den Zuckerrohr-Export bekannt, folgte bald eine Brennerei, die Rum produzierte. Barbados gilt als Geburtsort des Rums und die Abtei St. Nicholas ist einer der schönsten Orte für eine historische Rum-Tour. Besichtigen Sie die imposanten und makellosen Innenräume des Haupthauses und erkunden die Produktion in der Brennerei. Draußen warten auf dem großen Anwesen wunderschön angelegte Gärten und zum Abschluss spazieren Sie durch Cherry Tree Hill, einer historischen Allee aus prächtigen&nbsp;Bäumen."
+  title: "Oasen-Städte in Al&nbsp;Ain"
+  img: bg-three
+  description: "Einst eine grüne Oase auf der Karawanenstraße in den Oman, ist Al&nbsp;Ain heute eine der wichtigsten Kulturstätten des Landes und gehört zum UNESCO-Weltkulturerbe. Blühendes Gegenstück zur allgegenwärtigen Wüste und steingewordene Mythologie, wie das Qasr Al Muwaiji, die Geburtsstätte des Scheichs Zayed bin Sultan al Nahyan. Bestaunen Sie das artenreiche Ökosystem mit seinem ausgeklügeltem Faladsch-Bewässerungssystem und historischem Fort Al Jahili. Eine weitere von Wasser zum Leben erweckte Fata Morgana mit Freizeitparks, Zoo und kulturgeschichtlichem Nationalmuseum ist die Oase Al Qattara. Inmitten eines Meeres aus Dattelpalmen, lädt hier gelebte Beduinen-Kultur zum Entdecken ein."
+
+
+################################################################################
+
+
+- id: four
+  title: "Qasr Al Watan"
+  img: bg-four
+  description: "Der Präsidentenpalast Qasr Al Watan, weltweiter Maßstab für Luxus, Größe und kompromisslosem Service – ist ein mit Perlmutt, Gold und Kristallen bestücktes Paradebeispiel orientalischer Pracht. Seit kurzem öffnet er auch für Touristen die Pforten und bietet seinen Besuchern die Möglichkeit, ein tieferes Verständnis der herrschenden Traditionen und Werte der Vereinigten Arabischen Emirate zu erlangen. Auf geführten Entdeckungstouren durch das epische Ensemble werden in ausgewählten Bereichen zahlreiche Artefakte aus Wissenschaft, Literatur und Kunst präsentiert. Zur blauen Stunde erstrahlt die Fassade unter dem projizierten Licht- und Sound-Spektakel der Palace-in-Motion-Show."
+
+
+################################################################################
+
+
+- id: five
+  title: "Qasr Al Hosn"
+  img: bg-five
+  description: "Das strahlend weiße aus Korrallenstein gebaute und mit Muscheln verzierte Wahrzeichen Qasr al Hosn steht als Symbol für die lange Tradition des Landes. Im Qasr al Hosn Centre lernen Sie die Geschichte Abu&nbsp;Dhabis am Beispiel des ältesten Bauwerks der Stadt kennen. Lassen Sie sich mit historischen Fotos und lebhaften Erinnerungen in eine andere Zeit versetzen. Schreiten Sie durch die geschichtsträchtigen Mauern, während Sie eine leichte Meeresbrise umgibt, dank des traditionellen Barjeef-Belüftungssystems."
+
+
+################################################################################
+
+
+- id: six
+  title: "Abu&nbsp;Dhabi für Insider"
+  img: bg-six
+  description: "In kürzester Zeit ist Abu&nbsp;Dhabi zu einer fortschrittlichen und beeindruckenden Metropole geworden. Trotz des ständigen Wandels hat sie sich jedoch ihre arabische Kultur bewahrt und empfängt Fremde nach wie vor mit herzlicher Gastfreundschaft. Lassen Sie sich dieses facettenreiche Reiseziel von Einheimischen zeigen: Finden Sie das beste Motiv auf einer Fototour oder erwecken Ihre Leidenschaft für kostbare Gewürze und orientalische Kostbarkeiten mit einem Ausflug in traditionelle Restaurants. Auf der Wüstensafari erleben Sie ein echtes Abenteuer – bei den Emirati Experiences ist für jeden etwas dabei. "

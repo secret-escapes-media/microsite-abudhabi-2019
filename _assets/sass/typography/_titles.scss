@@ -45,7 +45,7 @@
 
   @include bp($md){
 
-    font-size: $s6; // default size
+    font-size: $s4; // default size
     &--lg     {  font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
     //text-transform: uppercase;
  }
@@ -89,18 +89,29 @@
 .banner-title {
 
   // custom banner headline
-  font-family: $font-title-sc;
-  font-weight: 500;
-  //text-transform: uppercase;
+  font-family: $font-title-01;
+  font-weight: 200;
+  text-transform: uppercase;
   //letter-spacing: 1em;
-  font-size: $s8;
+  font-size: $s7;
   line-height: 1em;
+  text-shadow: 0 0 16px rgba($black,.5);
 
-  @include bp($sm){ font-size: $s9;  line-height: 1em; }
-  @include bp($md){ font-size: $s10;  line-height: 1em; }
-  @include bp($lg){ font-size: $s11;  line-height: 1em; }
-  @include bp($xl){ font-size: $s12;  line-height: 1em;
-
+  @include bp($sm){ font-size: $s7;  line-height: 1em;
+    &--sm   { font-size: $s6;  }
+    &--lg   { font-size: $s8;  }
+   }
+  @include bp($md){ font-size: $s8;  line-height: 1em;
+    &--sm   { font-size: $s7;  }
+    &--lg   { font-size: $s9;  }
+  }
+  @include bp($lg){ font-size: $s9;  line-height: 1em;
+    &--sm   { font-size: $s8;  }
+    &--lg   { font-size: $s10;  }
+}
+  @include bp($xl){ font-size: $s10;  line-height: 1em;
+    &--sm   { font-size: $s9;  }
+    &--lg   { font-size: $s11;  }
 
   }
 
@@ -112,7 +123,7 @@
   font-family: $font-title-sc;
   font-weight: 300;
   letter-spacing: -.02em;
-  //color: $f-blue;
+  //color: $bv-blue;
   font-size: $s5;
 
   &--xl   { font-size: $s7; line-height: 1.1; }
@@ -122,7 +133,7 @@
 
   &--xxl   { font-size: $s8; line-height: 1.1; }
 }
-  @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
+  @include bp($xl){ font-size: $s8; letter-spacing: 1px; line-height: 1em;
   &--lg   { font-size: $s7; line-height: 1.2; }
   &--xl   { font-size: $s8; line-height: 1.2; }
   &--xxl   { font-size: $s9; line-height: 1.1; }

@@ -1,18 +1,19 @@
 # Site settings
-title: Barbados
+title: Abu&nbsp;Dhabi
 client:
-  name: Karibischer Sehnsuchtsort
-  link: "http://bit.ly/2BYpVBV"
-core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=barbados_DE_2019
+  name: Ihre außergewöhnliche Geschichte
+  link: "https://visitabudhabi.ae/de-de/default.aspx"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
+se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=abudhabi_DE_2019"
 description: >
   An was denken Sie beim Namen Barbados? Karibisches Meer, Sonne, Rhythmen und Rum fallen einem sofort ein. Doch die Insel hat noch vieles mehr zu bieten und ist mit über 92 km unberührter, idyllischer Küste ein erstklassiges Traumziel.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/barbados" # the subpath of your site, e.g. /blog/
-img:     "/de/barbados/_assets/img"
-css:     "/de/barbados/_assets/css"
-js:      "/de/barbados/_assets/js"
+baseurl: "/de/abu-dhabi-2019" # the subpath of your site, e.g. /blog/
+img:     "/de/abu-dhabi-2019/_assets/img"
+css:     "/de/abu-dhabi-2019/_assets/css"
+js:      "/de/abu-dhabi-2019/_assets/js"
 
 
 # Build settings

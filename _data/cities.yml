@@ -1,0 +1,42 @@
+- id: one
+  title: "Mondäne Shoppingtour"
+  img: bg-one
+  description: "Hier wird Shoppen zur Lieblingsbeschäftigung – kein Wunder, denn originelle Einkaufszentren, preiswerte Outlets und exquisite Flagship Stores bieten während der Mittagsstunden eine willkommene Abkühlung. Mediterranes Ambiente verspricht das 'The Collection'. Angelegt wie ein kleines Dorf, warten hier hochkarätige Geschäfte umgeben von Terrassen und Piazzas. Ergänzt wird das Shoppingangebot durch kleine Souk-ähnliche Outlets, wo traditionelle Parfüms, Kunsthandwerk, Antiquitäten, Gewürze, Textilien und Teppiche in geschäftiger Kulisse die Besitzer wechseln. Eine  perfekte Gelegenheit, um nach einem Mitbringsel für die Lieben daheim zu stöbern. "
+
+
+################################################################################
+
+
+- id: two
+  title: "Architektonische Wunder"
+  img: bg-two
+  description: "Im Andaz Capital Gate residieren Sie im eindrucksvollen "Bruder" des schiefen Turms von Pisa. Das beliebte Fotomotiv, mit 35 Stockwerken und einer Neigung von 18 Grad in Richtung Westen, wurde im Guinness Buch der Rekorde als der 'am stärksten absichtlich geneigte Turm der Welt' verzeichnet. Das Staunen geht weiter: Gleich fünf Türme bilden das architektonische Statement der Etihad Towers. Und schwindelfreie riskieren einen Blick vom 74. Stockwerk des Observation Decks at 300 – der höchsten Aussichtsplattform der Welt – mit einer spektakulären Vogelperspektive auf die Stadt."
+
+
+
+################################################################################
+
+
+- id: three
+  title: "Realität gewordene Fiktion"
+  img: bg-three
+  description: "Das Emirates Palace Hotel besticht mit herausragendem Design und unübertroffenem Service, es ist ein Paradebeispiel orientalischer Pracht, das den Ruf Abu&nbsp;Dhabis als Premium-Destination mitbegründet hat. Gäste logieren zwischen Gold und Perlmutt verziertem Interieur, über 1000 Kronleuchter erstrahlen inmitten handgefertigter opulenter Wandbilder. Der makellose Privatstrand mit landschaftlich gestalteten Pools, umgeben von palmengesäumten Alleen und silbernen Wasserfontänen runden den glamourösen Auftritt ab – ein Ort, an dem Sie den Urlaub Ihres Lebens verbringen können."
+
+
+
+################################################################################
+
+
+- id: four
+  title: "Strandpromenade mit Skyline"
+  img: bg-four
+  description: "Mit prächtigem Blick auf die Skyline Abu&nbsp;Dhabis lädt die paradiesische Corniche zum Relaxen ein. Zwischen dem legendären Emirates Palace Hotel und dem tropischen Urban Park flanieren Sie entlang des Ufers vorbei an edlen Cafés sowie erstklassigen Restaurants und luxuriösen Boutiquen. Garniert mit schattigen Sonnenliegen, teils exklusiv wie im Hiltonia Beach Club, teils mit auf Familien zugeschnittener Infrastruktur und Sportangeboten, findet jeder sein paradiesisches Plätzchen. Von einem Schnellboot aus genießen Sie einen Blick auf die futuristische Architektur oder erkunden die facettenreiche Unterwasserwelt."
+
+
+################################################################################
+
+
+- id: five
+  title: "Glamour zur blauen Stunde"
+  img: bg-five
+  description: "Wenn Abu&nbsp;Dhabi zur blauen Stunde im kunstvoll inszenierten Lichtermeer erstrahlt, ist eine Rooftop-Bar der perfekte Spot, um die Eindrücke des Tages bei einem Cocktail Revue passieren zu lassen. Garantiert perfekte Aussichten haben Sie von der Up & Below Bar im 12. Stock des Courtyard by Marriott World Trade Centers. Oder in der futuristischen Skylite Lounge des Yas Hotel Abu&nbsp;Dhabi mit Blick über den Yas Marina Curcuit. Märchenhafte Sonnenuntergänge am Arabischen Meer bietet die stylishe Beach House Rooftop im Park Hyatt nebst Menü Kreationen von Starköchen – die perfekte Alternative, falls Sie nicht schwindelfrei sind. "

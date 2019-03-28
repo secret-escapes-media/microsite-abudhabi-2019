@@ -3,7 +3,7 @@
 $site-nav-height:    60px;
 $site-nav-height-sm: 60px;
 $nav-width-bp:       860px;
-$nav-color:          $f-blue;
+$nav-color:          $bv-blue;
 
 
 // global site nav height
@@ -18,7 +18,7 @@ $nav-color:          $f-blue;
 
 .site-nav {
   position: relative;
-  background-color: rgba($nav-color,.5);
+  background-color: rgba($nav-color,0);
   //border: 1px solid rgba($black,.05);
   text-align: center;
 
@@ -77,7 +77,7 @@ $nav-color:          $f-blue;
   &__item {
     display: flex;
     flex: 1 0 auto;
-    border-right: 1px solid rgba($white,.15);
+    //border-right: 1px solid rgba($white,.15);
     &:last-child { border-right: 0; }
   }
   &__link {
@@ -89,15 +89,15 @@ $nav-color:          $f-blue;
     padding-right: $s4;
     padding-top: 4px;
     font-family: $font-title-01;
-    font-weight: 700;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 14px;
     letter-spacing: .1em;
     text-transform: uppercase;
     color: rgba($white,1);
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { color: rgba($f-blue,1);  background-color: rgba($f-yellow,1);  }//border-bottom: 2px solid $f-blue; padding-top:2px; color: rgba($f-blue,1);
-    .no-touch &:hover {  color: rgba($f-blue,1);  background-color: rgba($f-yellow,1);}
+    &.is-current      { color: rgba($white,1);  font-weight: 600; background-color: rgba($bv-red,1);  }//border-bottom: 2px solid $bv-blue; padding-top:2px; color: rgba($bv-blue,1);
+    .no-touch &:hover {  color: rgba($white,1); background-color: rgba($bv-red,1);}
     @include bp($nav-width-bp){
       padding-left: $s0;
       padding-right: $s0;

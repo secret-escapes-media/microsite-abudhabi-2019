@@ -1,7 +1,7 @@
 - id: one
-  title: Der wilde Atlantik
-  img: bg-img1
-  description: "Die Ostküste von Barbados ist umgeben vom stürmischen Atlantik und bekannt für die raue Schönheit: Große Felsen an der Küste und riesige Wellen brechen sich an steilen Klippen. Beliebte Surfspots, wie die Soup Bowl und der Bathseba Beach, werden jährlich zum Schauplatz für Wellenreiter. Entlang der East Cost bilden Seenlandschaften kleine Naturparadiese und in der Abgeschiedenheit versteckter Buchten beherbergt die Martins Bay kleine&nbsp;Fischerhütten. "
+  title: Sehnsuchtsorte
+  img: bg-one
+  description: "Der majestätische Strand auf Saadiyat Island lädt Sonnenhungrige in entspannter Atmosphäre zum Relaxen ein. Sportliche Freizeitaktivitäten sowie Bars und Restaurants runden den Ausflug an die Südküste ab. Umgeben von natürlichen Dünenvegetationen mit weißem Sandstrand, türkisblauem Wasser und einem für Karettschildkröten vorbehaltenen Schutzgebiet, ist der Saadiyat Beach ein Weltklasse-Resort. Auf Nurai Island haben Sie spichwörtlich die Ruhe weg: Exklusiver Luxus mit edlem Spa und Infinitypool. Von den eleganten Lounge-Betten aus, haben Sie  einen unvergleichlichen Blick auf die Ost-Küste Abu&nbsp;Dhabis."
 
 
 
@@ -9,9 +9,9 @@
 
 
 - id: two
-  title: Die Platinküste
-  img: bg-img2
-  description: "Klares, warmes Wasser, feinster Korallensandstrand – die 'Platinküste' im Westen von Barbados erfüllt Ihren Traum von der Karibik. Ein Paradies für Romantiker ist der bekannte Maxwell Strand. Der bekannteste Strandclub – der Nikki Beach – liegt nordwestlich. Schnorcheln über Riffe, flaches Wasser für Familienurlaube und Windsurfen für Anfänger bietet die Südküste der Insel. Der Silver Sands Beach bietet im Vergleich ideale Bedingungen zum&nbsp;Kite-Surfen."
+  title: Mangrove National Park
+  img: bg-two
+  description: "Wer von Abu&nbsp;Dhabi hört, denkt zunächst an einen Wüstenstaat. Rosa Flamingos, grüne Salzwiesen oder Seekühe passen nicht zwingend dazu. Doch außerhalb des Stadtzentrums säumt sich der größte, weitflächige Mangrove National Park wie eine grüne Lunge entlang der Ost-Küste. Das Paradies für Naturliebhaber bietet außergewöhnlichen Lebewesen Schutz. Im Rahmen geführter Ecotours halten Sie Ausschau nach seltenen Wasservögeln und umherstreifenden Füchsen. Gut markierte Wanderwege laden zu spannenden Sichtungen ein, die vom Kajak oder SUP-Board aus nicht minder beeindruckend sind. "
 
 
 
@@ -20,9 +20,9 @@
 
 
 - id: three
-  title: Das Fenster zum&nbsp;Meer
-  img: bg-img3
-  description: "Mit einem natürlichen Felspool zum Atlantik hin öffnet sich die einzige Meerhöhle der Insel an der Nordküste. Aufschäumend und imposant rauschen hier die kräftigen Wellen auf die zerklüfteten Felsformationen und die Höhlenöffnung. Das beeindruckende Naturschauspiel an der Animal Flower Cave kreiert einen tollen Kontrast zu der relaxten Cocktail-Atmosphäre an der Westküste. Unvergessen bleibt Ihnen nach einem Besuch der atemberaubende Frische-Kick des stürmischen Nordost-Passatwindes und die raue Schönheit der Sandsteinfelsen."
+  title: Arabian Wildlife Park
+  img: bg-three
+  description: "Die Destination Sir Bani Yas strotzt mit spannenden Highlights und ist eine von acht Inseln, die zusammen mit Desert Island und Al Dhafra das Wünsten-Insel-Ensemble bilden. Mehr als die Hälfte der Insel nimmt der Arabian Wildlife Park auf Sir Bani Yas in Anspruch. Auf der eigens dafür gebauten Aussichtsplattform kommen Sie anmutigen Giraffen etwas näher oder beobachten die ca. 10.000 freilaufenden Tiere von speziellen Fahrzeugen aus. Experten führen Sie auf der bis zu dreistündigen Wildlife-Tour durch den Park, während Sie arabische Oryx-Antilopen, Gazellen sowie Hyänen und Geparden in ihrer natürlichen Umgebung erleben können."
 
 
 
@@ -30,7 +30,6 @@
 
 
 - id: four
-  title: Verträumte Südküste
-  img: bg-img4
-  description: "Die Bottom Bay an der Südküste ist ein wahrer Klassiker: Menschenleerer feiner Sandstrand mit kräftigen Kokospalmen und einer leichten Brise. Hier steht Ihrem Karibik-Traum nichts im Wege. Angenehme Wassertemperaturen und paradiesisches Feeling erwarten Sie auch gleich nebenan – die Cave Bay erreichen Sie zu Fuß über ein kleines Plateau. Schnorcheln, schwimmen und surfen vollenden hier das traumhafte Beachlife.
-Packen Sie Ihren Picknick-Korb ein und relaxen in der entzückenden Lagune am Beach von Harrismith: Das&nbsp;ist&nbsp;'glamouröse&nbsp;Entschleunigung'. "
+  title: Falkenklinik
+  img: bg-four
+  description: "Auf Tuchfühlung mit dem Nationalvogel gehen Sie in der ersten und größten Falkenklinik der Welt. Der imposante Raubvogel ist tief verwurzelt in die Historik der Vereinigten Arabischen Emirate. Jährlich werden über 6.000 Tiere in der Klinik behandelt, die von einer prominenten deutschen Tiermedizinerin geleitet wird. Eine Besichtigungs-Tour offenbart Ihnen Einblicke in die Geschichte der Falknerei und in die Lebensweise dieses mäjestätischen Tieres. Bestaunen Sie die Flugakrobatik, beobachten eine Falken-Pediküre oder freunden sich mit diesem beeindruckenden Vogel an, während Sie ihn auf dem Arm halten.  "

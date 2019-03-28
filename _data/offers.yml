@@ -1,7 +1,7 @@
-- title: "Traumurlaub unter karibischer Sonne"
+- title: "Headline goes here"
   id: Hotel-Beach-View
-  location: Hotel Beach View, St. James, Barbados
-  description: Inkl. Frühstücksmenü, 1 Flasche Wein & Flughafentransfers
+  location: Location goes here
+  description: Description goes here
   price: 79
   price-description: pro Person - basierend auf 2 Personen
   saved: 50
@@ -9,13 +9,13 @@
   img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90565/ede592dd_ab73_4488_ab5f_f2119887337b.jpg"
   link: "http://bit.ly/2ClOuZP"
 
-- title: "5*-Glamour & Panorama-Meerblick auf Barbados"
-  id: Royal-Pavilion
-  location: Fairmont Royal Pavilion, Porters, Barbados
-  description: Luxuriöse Auszeit im eleganten Strandresort – inkl. Flügen, Privattransfers & Frühstück
-  price: 1885
+- title: "Headline goes here"
+  id: Hotel-Beach-View
+  location: Location goes here
+  description: Description goes here
+  price: 79
   price-description: pro Person - basierend auf 2 Personen
-  saved: 35
-  flight-tag: true
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90129/2d6501df_e457_4351_9e01_92f50f65047f.jpg"
-  link: "http://bit.ly/2TSqLdL"
+  saved: 50
+  flight-tag: #
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90565/ede592dd_ab73_4488_ab5f_f2119887337b.jpg"
+  link: "http://bit.ly/2ClOuZP"

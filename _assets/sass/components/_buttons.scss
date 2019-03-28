@@ -19,14 +19,13 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; } }
 
-  &--f-blue { background-color: $f-blue; font-size: 13px;
-    &:hover { background-color: $f-blue; }}
+  &--bv-blue { background-color: $bv-blue; font-size: 13px;
+    &:hover { background-color: $bv-blue; }}
 
-  &--f-red { background-color: $f-red;
-    &:hover { background-color: $f-red; }}
+  &--bv-red { background-color: $bv-red; width: 250px;
+    &:hover { background-color: $bv-red; }}
 
-  &--f-yellow { background-color: $f-yellow; color: $f-blue; border: 1px solid $f-yellow;
-    &:hover { background-color: $white; color: $f-blue; border: 1px solid $f-blue;}}
+
 
   &--outline {
     color: inherit;
@@ -50,8 +49,8 @@
     border: 2px solid $white;
     color: $white;
     &:hover {
-      background-color: $f-red;
-      border: 2px solid $f-red;
+      background-color: $bv-red;
+      border: 2px solid $bv-red;
       color: $white;
     }
   }
@@ -60,9 +59,9 @@
     border: 1px solid $black;
     color: $black;
     &:hover {
-      background-color: $f-yellow;
-      border: 1px solid $f-blue;
-      color: $f-blue;
+      background-color: $bv-red;
+      border: 1px solid $bv-blue;
+      color: $bv-blue;
     }
   }
   &--outline-orange {
