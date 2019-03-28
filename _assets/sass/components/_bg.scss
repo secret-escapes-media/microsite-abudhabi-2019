@@ -11,7 +11,7 @@
 
     background-color: rgba($black, 1);
 
-    @include bp($xl){
+    @include bp($xxl){
     background-color: rgba($black, .8);
     border-bottom: 4px solid #c30e2e;}
   }
@@ -20,7 +20,7 @@
     background-color: rgba($black, 1);
     border-bottom: 4px solid #c30e2e;
 
-    @include bp($xl){
+    @include bp($xxl){
     background-color: rgba($black, 0);
     border-bottom: none;}
   }

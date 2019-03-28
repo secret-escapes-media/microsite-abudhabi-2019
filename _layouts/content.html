@@ -19,7 +19,7 @@ layout: default
 {% for section in site.data[page.id] %}
 
     <div id="{{section.id}}" class="harvey{% cycle ' harvey--swap', '' %} bv-parallax bv-hide-bg-mob bg--black-mob"  style="background-image: url('{{site.img}}/content/{{page.id}}/bg-{{section.id}}.jpg'); background-repeat: none; background-position: center; background-size: cover;">
-      <div class="harvey__img bv-show-bg-mob" style="background-image: url('{{site.img}}/content/{{page.id}}/bg-{{section.id}}.jpg'); background-repeat: none; background-position: center; background-size: cover;"> </div>
+      <div class="harvey__img bv-show-bg-mob" style="background-image: url('{{site.img}}/content/{{page.id}}/bg-{{section.id}}.jpg'); background-repeat: none; background-position: {% cycle '75%', '25%' %} center; background-size: cover;"> </div>
       <div class="harvey__text boxpad--xl text text--md  ">
         <div class="bg--black-alpha  text--white boxpad--xl " >
         <div class="space--md"></div>

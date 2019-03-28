@@ -1,8 +1,8 @@
 // styles for the microsite nav
 
 $site-nav-height:    60px;
-$site-nav-height-sm: 60px;
-$nav-width-bp:       860px;
+$site-nav-height-sm: 50px;
+$nav-width-bp:       980px;
 $nav-color:          $bv-blue;
 
 
@@ -40,7 +40,7 @@ $nav-color:          $bv-blue;
     bottom: 0;
     z-index: $z-nav-upper;
     width: $site-nav-height-sm;
-    background-image: url("../img/icons/nav-arrow.svg");
+    background-image: url("../img/icons/nav-arrow-footer.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: $site-nav-height-sm auto;

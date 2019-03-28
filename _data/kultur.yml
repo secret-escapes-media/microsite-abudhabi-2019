@@ -1,7 +1,7 @@
 - id: one
   title: Scheich-Zayid-Moschee
   img: bg-one
-  description: "Wie ein Gesamtkunstwerk aus 1001 Nacht leuchtet das elfenbeinfarbene Symbol der islamischen Welt. Das mit strahlendem Marmor, 24-karätigem Blattgold und aufwendigem Kunsthandwerk geschmückte Gotteshaus ist der architektonische Höhepunkt jeder Abu-Dhabi-Reise. Von Samstag bis Donnerstag öffnet sich die Scheich-Zayid-Moschee ihren Besuchern, mit der Ausnahme des Freitagmorgens, der dem Gottesdienst vorgesehen ist.  Das unter Kuppeln und Kronleuchtern thronende Meisterstück wird bei Nacht mithilfe eines einzigartigen Beleuchtungssystems in Szene gesetzt – märchenhaft und fotogen zugleich."
+  description: "Wie ein Gesamtkunstwerk aus 1001 Nacht leuchtet das elfenbeinfarbene Symbol der islamischen Welt. Das mit strahlendem Marmor, 24-karätigem Blattgold und aufwendigem Kunsthandwerk geschmückte Gotteshaus ist der architektonische Höhepunkt jeder Abu-Dhabi-Reise. Von Samstag bis Donnerstag öffnet sich die Scheich-Zayid-Moschee ihren Besuchern, mit der Ausnahme des Freitagmorgens, der dem Gottesdienst vorgesehen ist.  Das unter Kuppeln und Kronleuchtern thronende Meisterstück wird bei Nacht mithilfe eines einzigartigen Beleuchtungssystems in Szene gesetzt – märchenhaft und fotogen&nbsp;zugleich."
 
 ################################################################################
 
@@ -18,14 +18,14 @@
 - id: three
   title: "Oasen-Städte in Al&nbsp;Ain"
   img: bg-three
-  description: "Einst eine grüne Oase auf der Karawanenstraße in den Oman, ist Al&nbsp;Ain heute eine der wichtigsten Kulturstätten des Landes und gehört zum UNESCO-Weltkulturerbe. Blühendes Gegenstück zur allgegenwärtigen Wüste und steingewordene Mythologie, wie das Qasr Al Muwaiji, die Geburtsstätte des Scheichs Zayed bin Sultan al Nahyan. Bestaunen Sie das artenreiche Ökosystem mit seinem ausgeklügeltem Faladsch-Bewässerungssystem und historischem Fort Al Jahili. Eine weitere von Wasser zum Leben erweckte Fata Morgana mit Freizeitparks, Zoo und kulturgeschichtlichem Nationalmuseum ist die Oase Al Qattara. Inmitten eines Meeres aus Dattelpalmen, lädt hier gelebte Beduinen-Kultur zum Entdecken ein."
+  description: "Einst eine grüne Oase auf der Karawanenstraße in den Oman, ist Al&nbsp;Ain heute eine der wichtigsten Kulturstätten des Landes und gehört zum UNESCO-Weltkulturerbe. Blühendes Gegenstück zur allgegenwärtigen Wüste und steingewordene Mythologie, wie das Qasr Al Muwaiji, die Geburtsstätte des Scheichs Zayed bin Sultan al Nahyan. Bestaunen Sie das artenreiche Ökosystem mit seinem ausgeklügeltem Faladsch-Bewässerungs&shy;system und historischem Fort Al Jahili. Eine weitere von Wasser zum Leben erweckte Fata Morgana mit Freizeitparks, Zoo und kulturgeschichtlichem Nationalmuseum ist die Oase Al Qattara. Inmitten eines Meeres aus Dattelpalmen, lädt hier gelebte Beduinen-Kultur zum Entdecken&nbsp;ein."
 
 
 ################################################################################
 
 
 - id: four
-  title: "Qasr Al Watan"
+  title: "Qasr Al&nbsp;Watan"
   img: bg-four
   description: "Der Präsidentenpalast Qasr Al Watan, weltweiter Maßstab für Luxus, Größe und kompromisslosem Service – ist ein mit Perlmutt, Gold und Kristallen bestücktes Paradebeispiel orientalischer Pracht. Seit kurzem öffnet er auch für Touristen die Pforten und bietet seinen Besuchern die Möglichkeit, ein tieferes Verständnis der herrschenden Traditionen und Werte der Vereinigten Arabischen Emirate zu erlangen. Auf geführten Entdeckungstouren durch das epische Ensemble werden in ausgewählten Bereichen zahlreiche Artefakte aus Wissenschaft, Literatur und Kunst präsentiert. Zur blauen Stunde erstrahlt die Fassade unter dem projizierten Licht- und Sound-Spektakel der Palace-in-Motion-Show."
 
@@ -34,7 +34,7 @@
 
 
 - id: five
-  title: "Qasr Al Hosn"
+  title: "Qasr Al&nbsp;Hosn"
   img: bg-five
   description: "Das strahlend weiße aus Korrallenstein gebaute und mit Muscheln verzierte Wahrzeichen Qasr al Hosn steht als Symbol für die lange Tradition des Landes. Im Qasr al Hosn Centre lernen Sie die Geschichte Abu&nbsp;Dhabis am Beispiel des ältesten Bauwerks der Stadt kennen. Lassen Sie sich mit historischen Fotos und lebhaften Erinnerungen in eine andere Zeit versetzen. Schreiten Sie durch die geschichtsträchtigen Mauern, während Sie eine leichte Meeresbrise umgibt, dank des traditionellen Barjeef-Belüftungssystems."
 
@@ -43,6 +43,7 @@
 
 
 - id: six
-  title: "Abu&nbsp;Dhabi für Insider"
+  title: "Abu&nbsp;Dhabi für&nbsp;Insider"
   img: bg-six
-  description: "In kürzester Zeit ist Abu&nbsp;Dhabi zu einer fortschrittlichen und beeindruckenden Metropole geworden. Trotz des ständigen Wandels hat sie sich jedoch ihre arabische Kultur bewahrt und empfängt Fremde nach wie vor mit herzlicher Gastfreundschaft. Lassen Sie sich dieses facettenreiche Reiseziel von Einheimischen zeigen: Finden Sie das beste Motiv auf einer Fototour oder erwecken Ihre Leidenschaft für kostbare Gewürze und orientalische Kostbarkeiten mit einem Ausflug in traditionelle Restaurants. Auf der Wüstensafari erleben Sie ein echtes Abenteuer – bei den Emirati Experiences ist für jeden etwas dabei. "
+  bg-pos: "background-position: 38% center;"
+  description: "In kürzester Zeit ist Abu&nbsp;Dhabi zu einer fortschrittlichen und beeindruckenden Metropole geworden. Trotz des ständigen Wandels hat sie sich jedoch ihre arabische Kultur bewahrt und empfängt Fremde nach wie vor mit herzlicher Gastfreundschaft. Lassen Sie sich dieses facettenreiche Reiseziel von Einheimischen zeigen: Finden Sie das beste Motiv auf einer Fototour oder erwecken Ihre Leidenschaft für kostbare Gewürze und orientalische Kostbarkeiten mit einem Ausflug in traditionelle Restaurants. Auf der Wüstensafari erleben Sie ein echtes Abenteuer – bei den Emirati Experiences ist für jeden etwas&nbsp;dabei. "

@@ -4,10 +4,10 @@
 
   // custom content headline
   font-family: $font-title-01;
-  line-height: 1.1em;
+  line-height: 1.2em;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
-  &--xl     { font-size: $s6; }
+  &--xl     { font-size: $s5; }
   &--lg     { font-size: $s5; }
   &--md     { font-size: $s4; }
   &--sm     { font-size: $s3; }
@@ -32,7 +32,7 @@
 
   // custom content headline
   font-family: $font-title-01;
-  font-size: $s4; // default size
+  font-size: $s3; // default size
   font-weight: 300;
   line-height: 1.2em;
 
@@ -94,14 +94,14 @@
   text-transform: uppercase;
   //letter-spacing: 1em;
   font-size: $s7;
-  line-height: 1em;
+  line-height: 1.2em;
   text-shadow: 0 0 16px rgba($black,.5);
 
-  @include bp($sm){ font-size: $s7;  line-height: 1em;
+  @include bp($sm){ font-size: $s7;  line-height: 1.2em;
     &--sm   { font-size: $s6;  }
     &--lg   { font-size: $s8;  }
    }
-  @include bp($md){ font-size: $s8;  line-height: 1em;
+  @include bp($md){ font-size: $s8;  line-height: 1.1em;
     &--sm   { font-size: $s7;  }
     &--lg   { font-size: $s9;  }
   }
