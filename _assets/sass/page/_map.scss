@@ -5,53 +5,59 @@ Map
 
 
 #map {
-  /**/
-  //  position: absolute;
+
+
+  display: none;
+
+  @include bp($lg){
+    display: block;
     flex-direction: column;
     justify-content: flex-start;
-  //  border: 10px solid $white;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;}
 
 }
 
+.bv-highlights-wrap{
+
+    display: block;
+
+  @include bp($lg) {  display: none;  }
+}
 
 
 .map {
 
-  position: absolute;
-  width: 100%;
+  min-height: 500px;
 
   @include bp($xl){
 
     position: relative;
-   display: flex;
-   align-items: left;
-   flex-direction: column;
-   justify-content: flex-start;
-   //height: 90%;
-     min-height: 650px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 650px;
    }
-
-
-
 }
 
 
 
-.bv-popup{
-  padding: 10px 10px 15px;
-}
 .marker {
-    width: 30px;
-    height: 50px;
+
     cursor: pointer;
+    content: "";
     display: inline-block;
-    transform: scale(.5);
-    padding-top: -50px;
-	  background-repeat: no-repeat;
+    height: 3.5em;
+    width: 3.05em;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: contain;
 
     &--kultur  {  background-image: url( "../img/icons/pin-kultur.svg" ); }
     &--abenteuer  {  background-image: url( "../img/icons/pin-abenteuer.svg" ); }
@@ -60,164 +66,104 @@ Map
 }
 
 
+
+.bv-pin::before {
+
+    content: "";
+    display: inline-block;
+    height: 1.5em;
+    width: 1.05em;
+    margin-right: .5em;
+    margin-left: .6em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: contain;
+    transform: scale(1.8);
+
+    @include bp($lg){
+
+      content: "";
+      display: inline-block;
+      height: 1.5em;
+      width: 1.05em;
+      margin-right: 1em;
+      margin-top: .3em;
+      margin-bottom: .5em;
+      vertical-align: middle;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-size: contain;
+      transform: scale(1.5);
+     }
+
+}
+
 .bv-kultur::before {
   content: url( "../img/icons/pin-kultur.svg" );
-  display: inline-block;
-  margin: 2px;
-  width: 10px;
-  transform: scale(1.5);
-  margin-right: 10px;
 }
 
 .bv-natur::before {
   content: url( "../img/icons/pin-natur.svg" );
-  display: inline-block;
-  margin: 2px;
-  width: 10px;
-  transform: scale(1.5);
-  margin-right: 10px;
 }
 
 .bv-abenteuer::before {
   content: url( "../img/icons/pin-abenteuer.svg" );
-  display: inline-block;
-  margin: 2px;
-  width: 10px;
-  transform: scale(1.5);
-  margin-right: 10px;
 }
 
 .bv-cities::before {
   content: url( "../img/icons/pin-cities.svg" );
-  display: inline-block;
-  margin: 2px;
-  width: 10px;
-  transform: scale(1.5);
-  margin-right: 10px;
 }
+
+
+.bv-popup-img{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin: 0px!important;
+
+    vertical-align: middle;
+    background-size: cover;
+    background-color: $grey;
+  }
 
 .mapboxgl-popup {
-    max-width: 300px;
-    position: absolute;
-    z-index: 99;
+    max-width: 320px;
+    z-index: 19;
 }
-.mapboxgl-popup-tip{
 
-  //box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3)!important;
+
+
+.bv-popup-wrap{
+  padding:0;
 }
+
 .mapboxgl-popup-close-button{
   background-color: $white;
   border-radius: 50px!important;
   margin: 4px;
   font-size: 14px;
   padding: 2px 7px 4px;
-  //height: 22px;
+
 }
 .mapboxgl-popup-close-button:hover {
 
-    background-color:  $white;
+    background-color:  $black;
+    color: $white;
 
 }
 
 .mapboxgl-popup-content {
-  text-align: left;
   padding:0px!important;
-  border-radius: 0px!important;
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4)!important;
 }
 
 
-
-
-
-/* ==========================================================================
- Map-Mobile
-========================================================================== */
-
-
-.bv-modal {
-
-  background-color: rgba($white,1);
-
-}
-
-  /* Modal Content */
-  .bv-modal-content-details {
-
-    margin: auto;
-
-
-  }
-
-
-@media only screen and (max-width: 800px) {
-
-/* The Modal (background) */
-.bv-modal {
-  display: none;
-  position: fixed;
-  z-index: 100;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: rgba($white,1);
-
-}
-
-  /* Modal Content */
-  .bv-modal-content-details {
-    position: absolute;
-    height: 100%;
-    max-height: 82vh;
-    border: 10px solid $white;
-    width: 92%;
-    margin: auto;
-    //padding:  15px;
-    top: 0; left: 0; bottom: 0; right: 0;
-    overflow: hidden;
-    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1)!important;
-
-  }
-
-
-  /* The Close Button */
-  .bv-close {
-    position: absolute;
-    background-size:16px;
-    top: 0px;
-    right: 0px;
-    //display: none;
-    background-image: url('../img/icons/close.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 45px;
-    height: 45px;
-    background-color: $black;
-    z-index:999;
-    cursor: pointer;
-
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-.bv-disable-scroll {
-  overflow: hidden;/*
-  & >:not(.bv-modal) {
-    -webkit-filter: blur(10px);
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
-  }*/
+.bv-legend-wrap{
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  z-index: 18;
+  background-color: $white;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2)!important;
 }

@@ -3,89 +3,84 @@ layout: default
 ---
 
 
-<div class=" vpad--xl bg--light-alpha bv-bg-pattern" id="top"  style="z-index: 999; background-image: url('{{site.img}}/icons/bg-pattern.png');  ">
+<div class="vpad--xl bg--light-alpha bv-bg-pattern" id="top" style="background-image: url('{{site.img}}/icons/bg-pattern.png'); ">
   <div class="container">
-    <div class="width width--lg text--left text--black " >
+    <div class="width width--lg text--left text--black" >
        <div class="text--md text--justify">{{page.intro}}</div>
        <div class="space--md"></div>
     </div>
   </div>
 </div>
 
+<!-- map --><!--
+<div id='map' ></div>
+<div id='bvmap' >
+  <div id="bvitem" onclick="toggleState(mylist)" >
+    <a class="text--upper">Land wählen:   <span class="tooltip bv-pick-country"><i class="fa fa-bars "></i><span class="tooltiptext">Bewege das Menü per Drag & Drop</span></span></a>
+    <div id="mylist" class="off">
+      {% for country in page.countries %}
 
+        <a href="{{country.url}}" target="_blank" class="popup-link" style="">{{country.title}} <i class="fa fa-external-link typicons-right bv-link" ></i> </a>
 
-<div class="row row--xl-6-6  row--no-gutters ">
-    <div class=" col--xl-5  " >
+      {% endfor %}
+      </div>
+  </div>
+</div>-->
+
+<div class="row row--xl-6-6 row--no-gutters ">
+    <div class="col col--xl-5" >
       <div class="vpad--md">
         <div class="width width--lg bv-hpad">
+          <div class="space--lg"></div>
+          <h1 class="title title--lg ">Entdecken Sie Ihr Highlight</h1>
           <div class="space--xl"></div>
-          <h1 class="title title--lg ">Highlights</h1>
+          <h2 class="text text--xxl">Nur einen Klick entfernt: Unsere&nbsp;Abu&nbsp;Dhabi&nbsp;Tipps.</h2>
           <div class="space--xl"></div>
-          <h2 class="text text--xxl ">Klicken Sie auf die interaktive Karte</h2>
-          <div class="space--md"></div>
-          <div id="bv-myBtn" style="cursor: pointer;" class=" btn btn--bv-red bv-mob-show" >Karte öffnen</div>
-          <div class="space--md"></div>
-          <div class="text text--xl text--bolder">Legende</div>
-          <div class="space--md"></div>
-          <div class="bv-abenteuer text text--md text--normal">Für Abenteurer</div>
-          <div class="bv-kultur text text--md text--normal">Für Kulturliebhaber</div>
-          <div class="bv-natur text text--md text--normal">Für City-Fans</div>
-          <div class="bv-cities text text--md text--normal">Für Stadtmenschen</div>
-          <div class="space--xl"></div>
+          <h2 class="text text--lg bv-mob-hide--lg">Klicken Sie sich einfach durch die Pins auf unserer interaktiven Karte und erkunden die vielfältigen Aktivitäten.</h2>
+          <div class="space--xxl bv-mob-hide--lg"></div>
+          <div class="bv-highlights-wrap ">
+            <div class="space--md"></div>
+
+            {% for section in site.data.highlights %}
+              <div id="{{section.page-id}}" class="accordion bv-pin bv-{{section.page-id}} text text--md text--normal">{{section.title}}</div>
+              <div class="panel bg--light text text--light">
+
+                  {% for poi in section.pois.items %}
+                  <a href="{{poi.link}}">
+                    <div class="panel-img" style="background-image: url('{{site.img}}/content/{{section.page-id}}/bg-{{poi.img}}.jpg');"></div>
+                    <div class="space--sm"></div>
+                    <div class="text text--lg text--dark text--upper">{{poi.title}}</div>
+                    <div class="text--dark text--md">{{poi.description}} <br></div>
+                    <div class="space--xs"></div>
+                    <div class="text--bold text--red">Mehr erfahren</div>
+                  </a>
+                   <div class="space--md"></div>
+                   {% endfor %}
+
+              </div>
+          {% endfor %}
+
+            <div class="space--xl"></div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col col--xl-7 bv-modal" id="bv-myModal" >
-             <div class="bv-close" ></div>
-         <div class="bv-modal-content-details">
-           <div class="map"  id="map"></div>
-         </div>
-
+    <div class="col col--xl-7">
+         <div class="bv-highlights-section">
+             <div class="map" id="map">
+               <div class="bv-legend-wrap boxpad--md">
+               <div class="text text--md text--bold">Legende</div>
+               <div class="space--xs"></div>
+               <div class="bv-pin bv-abenteuer text text--sm text--normal">Für Abenteurer</div>
+               <div class="bv-pin bv-kultur text text--sm text--normal">Für Kulturliebhaber</div>
+               <div class="bv-pin bv-natur text text--sm text--normal">Für Naturmenschen</div>
+               <div class="bv-pin bv-cities text text--sm text--normal">Für City-Fans</div>
+               
+             </div>
+           </div>
+        </div>
   </div>
 </div>
 
-
-
-  {% include page/map/map.html %}
-
- <script>
-
-
-
-// Get the modal
-var modal = document.getElementById('bv-myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("bv-myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("bv-close")[0];
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-  //alert (modal);
-  modal.style.display = "block";
-    $('body').addClass('bv-disable-scroll');
-
-    $('#bv-myModal').on('shown.bs.modal', function() {
-          map.resize();
-        });
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-      $('body').removeClass('bv-disable-scroll');
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-        $('body').removeClass('bv-disable-scroll');
-  }
-}
-
-
-
-</script>
+<!---->
+{% include page/map/map.html %}

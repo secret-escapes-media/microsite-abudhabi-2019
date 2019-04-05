@@ -13,12 +13,12 @@
 
     @include bp($xxl){
     background-color: rgba($black, .8);
-    border-bottom: 4px solid #c30e2e;}
+    border-bottom: 4px solid $bv-red;}
   }
   &--black-mob  {
 
     background-color: rgba($black, 1);
-    border-bottom: 4px solid #c30e2e;
+    border-bottom: 4px solid $bv-red;
 
     @include bp($xxl){
     background-color: rgba($black, 0);

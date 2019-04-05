@@ -1,0 +1,82 @@
+- id: one
+  title: Für Abenteurer
+  page-id: abenteuer
+
+  pois:
+
+    items:
+
+      - id: 1-1
+        title: Tel Moreeb
+        img: two
+        link: "http://bit.ly/2CAawbw"
+        description: "Verheißungsvolle Abflüge wagen Pistenpiloten beim Sandboarding auf der gewaltigen Düne Tel&nbsp;Moreeb."
+
+      - id: 1-2
+        title: Wadi Adventure Park
+        img: five
+        link: "http://bit.ly/2unwbis"
+        description: "Paddeln Sie sich durch tosende, künstlich angelegte Stromschnellen und Wildwasserkanäle.  "
+
+
+- id: two
+  title: Für Kulturliebhaber
+  page-id: kultur
+
+  pois:
+
+    items:
+
+      - id: 1-1
+        title: Scheich-Zayid-Moschee
+        img: one
+        link: "http://bit.ly/2CtblT9"
+        description: "Wie ein Gesamtkunstwerk aus 1001 Nacht leuchtet das elfenbeinfarbene Symbol der islamischen Welt."
+
+      - id: 1-2
+        title: Qasr Al Watan
+        img: four
+        link: "http://bit.ly/2Fu3qqI"
+        description: "Der orientalische Präsidentenpalast Qasr Al Watan öffnet für Touristen seine prachtvollen Pforten. "
+
+
+- id: three
+  title: Für Naturmenschen
+  page-id: natur
+
+  pois:
+
+    items:
+
+      - id: 1-1
+        title: Saadiyat Beach
+        img: one
+        link: "http://bit.ly/2FsvDOz"
+        description: "Natürliche Dünenvegetation, weißer Sandstrand und Karettschildkröten: ein&nbsp;Weltklasse-Resort."
+
+      - id: 1-2
+        title: Arabian Wildlife Park
+        img: three
+        link: "http://bit.ly/2Wf0vYD"
+        description: "Beobachten Sie arabische Oryx-Antilopen, Gazellen sowie Hyänen und Geparden auf Wildlife-Tour. "
+
+
+- id: four
+  title: Für City-Fans
+  page-id: cities
+
+  pois:
+
+    items:
+
+      - id: 1-1
+        title: Emirates Palace
+        img: three
+        link: "http://bit.ly/2Tmw0hn"
+        description: "Das Emirates Palace Hotel überzeugt mit herausragendem Design und unübertroffenem Service."
+
+      - id: 1-2
+        title: Strandpromenade Corniche
+        img: four
+        link: "http://bit.ly/2U4Z15Q"
+        description: "Mit prächtigem Blick auf die Skyline Abu Dhabis lädt die paradiesische Corniche zum Relaxen ein."

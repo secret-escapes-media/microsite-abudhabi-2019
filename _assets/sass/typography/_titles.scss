@@ -7,7 +7,7 @@
   line-height: 1.2em;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
-  &--xl     { font-size: $s5; }
+  &--xl     { font-size: $s6; }
   &--lg     { font-size: $s5; }
   &--md     { font-size: $s4; }
   &--sm     { font-size: $s3; }
@@ -93,7 +93,7 @@
   font-weight: 200;
   text-transform: uppercase;
   //letter-spacing: 1em;
-  font-size: $s7;
+  font-size: $s5;
   line-height: 1.2em;
   text-shadow: 0 0 16px rgba($black,.5);
 
@@ -112,31 +112,6 @@
   @include bp($xl){ font-size: $s10;  line-height: 1em;
     &--sm   { font-size: $s9;  }
     &--lg   { font-size: $s11;  }
-
-  }
-
-}
-
-.serif-title {
-
-  // custom intro headline
-  font-family: $font-title-sc;
-  font-weight: 300;
-  letter-spacing: -.02em;
-  //color: $bv-blue;
-  font-size: $s5;
-
-  &--xl   { font-size: $s7; line-height: 1.1; }
-  &--xxl   { font-size: $s7; line-height: 1.1; }
-
-  @include bp($md){ font-size: $s6;
-
-  &--xxl   { font-size: $s8; line-height: 1.1; }
-}
-  @include bp($xl){ font-size: $s8; letter-spacing: 1px; line-height: 1em;
-  &--lg   { font-size: $s7; line-height: 1.2; }
-  &--xl   { font-size: $s8; line-height: 1.2; }
-  &--xxl   { font-size: $s9; line-height: 1.1; }
 
   }
 

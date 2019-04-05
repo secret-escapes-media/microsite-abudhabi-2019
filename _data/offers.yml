@@ -1,21 +1,10 @@
-- title: "Headline goes here"
-  id: Hotel-Beach-View
-  location: Location goes here
-  description: Description goes here
-  price: 79
+- title: "Luxus-Residenz in der Hauptstadt der Emirate"
+  id: Sofitel
+  location: Sofitel Abu Dhabi Corniche, Abu Dhabi, Vereinigte Arabische Emirate
+  description: Inkl. Frühstück oder Halbpension, täglicher Restaurant-Ermäßigung & Extras
+  price: 42
   price-description: pro Person - basierend auf 2 Personen
-  saved: 50
+  saved: 66
   flight-tag: #
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90565/ede592dd_ab73_4488_ab5f_f2119887337b.jpg"
-  link: "http://bit.ly/2ClOuZP"
-
-- title: "Headline goes here"
-  id: Hotel-Beach-View
-  location: Location goes here
-  description: Description goes here
-  price: 79
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 50
-  flight-tag: #
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/90565/ede592dd_ab73_4488_ab5f_f2119887337b.jpg"
-  link: "http://bit.ly/2ClOuZP"
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/79355/3c6308b6_d390_406f_a912_60749e434fc8.jpg"
+  link: "http://bit.ly/2U57GGb"

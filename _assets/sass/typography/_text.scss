@@ -4,11 +4,12 @@
   font-family: $font-title-01;
   // sizes
   &--xxxl { font-size: 2.5rem; line-height: 1.5; letter-spacing: 0; }
-  &--xxl { font-size: 1.8rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxl { font-size: 1.8rem; line-height: 1.3; letter-spacing: 0; }
   &--xl  { font-size: 1.6rem; line-height: 1.55; letter-spacing: 0; }
   &--lg  { font-size: 1.4rem; line-height: 1.5; letter-spacing: 0; }
   &--md  { font-size: 1.2rem; line-height: 1.5; letter-spacing: 0; }
   &--sm  { font-size: .9rem; }
+
 
   // styles
   &--italic       { font-style: italic; }
@@ -28,6 +29,7 @@
   // colours
   &--white { color: $grey-lightest; }
   &--black { color: $black; }
+  &--dark { color: $grey-dark; }
   &--blue { color: $bv-blue; }
   &--red { color: $bv-red; }
   &--orange { color: $orange; }
@@ -36,7 +38,7 @@
   &--left   { text-align: left; }
   &--right  { text-align: right; }
   &--center { text-align: center; }
-  &--justify { text-align: justify; }
+  &--justify { text-align: left; }
   @include bp($lg) {
     &--bp-left   { text-align: left; }
     &--bp-right  { text-align: right; }

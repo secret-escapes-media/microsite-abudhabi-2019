@@ -2,109 +2,43 @@
 
 
 /* ==========================================================================
-   Dividers & Alignment
+   Text-Styles
    ========================================================================== */
 
 .bv-text-shadow-white{
   text-shadow: 0 0 20px rgba($white, 1);
 }
 
-.bv-title-divider::after{
-   content: ('');
-   display: block;
-   font-size: $s9;
-   margin: -5px 0 -10px 1px;
-
-   @include bp($md) {
-     content: ('');
-     display: block;
-     font-size: $s12;
-     margin: -12px 0 -20px 1px;
- }
-
-   @include bp($xl) {
-     content: ('');
-     display: block;
-     font-size: $s14;
-     margin: -30px 0 -30px 1px;
-
-   }
- }
-
-
-.bv-headline-divider::after {
-    content: ('---');
-    display: block;
-    font-size: $s5;
-    font-weight: bold;
-    letter-spacing: -2px;
-    margin: 2px 0 -2px 1px;
-
-    @include bp($xl) {
-        content: ('----');
-        display: block;
-        font-size: $s5;
-        font-weight: bold;
-        letter-spacing: -6px;
-        margin: 6px 0 -4px 1px;
-
-    }
-  }
-
-
-
-/* ==========================================================================
-   mobile
- ========================================================================== */
-
-
-
-.bv-mob-show{
-    display: block;
-
-  @include bp($xl) {
-      display: none;
-
-  }
-}
-
-.bv-mob-hide{
-    display: none;
-
-  @include bp($xl) {
-      display: block;
-
-  }
-}
-
 .bv-hpad {
   padding-left: $s2;
   padding-right: $s2;
 
+@include bp($md) {
+  padding-left: $s4;
+  padding-right: $s4;
+}
+
 @include bp($lg) {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: $s3;
+  padding-right: $s3;
 }
 
 @include bp($xl) {
-padding-left: $s7;
-//padding-right: $s4;
+padding-left: $s4;
+padding-right: $s4;
 }
 
 @include bp($xxl) {
-  padding-left: $s9;
-  //padding-right: $s4;
+  padding-left: $s5;
+  padding-right: $s5;
 }
 
 @include bp($xxxl) {
-  padding-left: $s10;
-  //padding-right: $s4;
+  padding-left: $s7;
+  padding-right: $s7;
 }
 
 }
-
-
-
 /* ==========================================================================
    Parallax & BG
    ========================================================================== */
@@ -133,7 +67,6 @@ padding-left: $s7;
 }
 
 
-
 .bv-parallax{
   background-attachment: fixed;
   background-position: center;
@@ -143,17 +76,10 @@ padding-left: $s7;
 
 
 
-
 @media only screen and (max-width: 969px)  {
 
   .bv-hide-bg-mob{
     background-image: none!important;
-    /*
-    @include bp($sm){
-      top: $s0;
-      left: $s0;
-      width: 146px;
-    }*/
 
   }
 
@@ -185,6 +111,98 @@ padding-left: $s7;
 
 
 
+/* ==========================================================================
+   mobile
+ ========================================================================== */
+
+
+.bv-mob-show{
+    display: block;
+
+  @include bp($xl) {
+      display: none;
+
+  }
+}
+
+.bv-mob-hide{
+    display: none;
+
+    &--lg { display: none;}
+
+  @include bp($lg) {  &--lg {display: block;}  }
+
+  @include bp($xl) {  display: block;  }
+
+}
+
+
+
+/* ==========================================================================
+   Accordion
+ ========================================================================== */
+
+
+.accordion {
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    background-color: $grey-lightest;
+    border-bottom: 1px solid $grey-lighter;
+    margin: 10px 0;
+}
+
+.accordion::after{
+  content: url(../img/icons/arrow-right.svg);
+  transform: scale(.07) rotate(90deg);
+  display: block;
+  margin-top: -160px;
+  margin-bottom: -125px;
+  margin-left: 90%;
+  transition: 0.4s;
+}
+
+.accordion:hover{
+   background-color: rgba($grey-lighter, .6);
+ }
+
+.active{
+  border-bottom: 10px solid $grey-lightest;
+  background-color: rgba($grey-lighter, .6);
+  margin: 10px 0 0 0;
+ }
+
+.active::after {
+  content: url(../img/icons/arrow-right.svg);
+  transform: scale(.07)  rotate(-90deg);
+  margin-top: -155px;
+  margin-bottom: -130px;
+  transition: 0.4s;
+
+}
+
+.panel {
+    padding: 0 10px 0 10px;
+    margin-top: -3px;
+    display: none;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid $grey-lighter;
+
+}
+
+.panel-img{
+  padding-top:50%;
+  background-size: cover;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
 
 
 

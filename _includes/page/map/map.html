@@ -1,4 +1,5 @@
 
+
 <script >
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiaGFtaXNoamdyYXkiLCJhIjoiY2pkbjBmeGN6MDd1YzMzbXI3cWdpNThjayJ9.3YE8T1H2QUyqNIkxdKWxkg';
@@ -8,17 +9,14 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/hamishjgray/cjsa3lvv75rtq1fof78nik8bv',
    // style: 'mapbox://styles/mapbox/light-v10',
     center: [54.0989, 23.852510],
-    zoom: 5,
+    zoom: 6.5,
     minZoom: 5,
-    //maxZoom: 16
+
   });
 
 
 
-  this.map.on('load', () => {
-          this.map.resize();
-  });
-  
+
 map.addControl(new mapboxgl.NavigationControl());
 
 map.on('load', function() {
@@ -28,9 +26,9 @@ map.on('load', function() {
   var labelLayerId;
   for (var i = 0; i < layers.length; i++) {
   if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
-  labelLayerId = layers[i].id;
-  break;
-  }
+    labelLayerId = layers[i].id;
+    break;
+    }
   }
 
   map.addLayer({
@@ -332,26 +330,12 @@ map.on('load', function() {
     type: 'Feature',
     geometry: {
       type: 'Point',
-      coordinates: [54.318464235, 24.457059812]
-    },
-    properties: {
-      title: 'Etihad Towers',
-      id: 'cities',
-      img: 'four',
-      link: 'http://bit.ly/2HzFt3I',
-      description: 'Schwindelfreie riskieren einen Blick aus dem 74. Stockwerk und genießen die atemberaubende Aussicht.'
-    }
-  },
-  {
-    type: 'Feature',
-    geometry: {
-      type: 'Point',
       coordinates: [54.339467, 24.473281]
     },
     properties: {
       title: 'Strandpromenade Corniche',
       id: 'cities',
-      img: 'five',
+      img: 'four',
       link: 'http://bit.ly/2U4Z15Q',
       description: 'Mit prächtigem Blick auf die Skyline Abu&nbsp;Dhabis lädt die paradiesische Corniche zum Relaxen ein.'
     }
@@ -378,7 +362,9 @@ map.on('load', function() {
   new mapboxgl.Marker(el)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-      .setHTML('<a href="'+marker.properties.link+'"><img src="{{site.img}}/content/'+marker.properties.id+'/bg-'+marker.properties.img+'.jpg"><div class="bv-popup "><div class="text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div></div></a>'))
+    .setHTML('<a class="text--black" target="_blank" href="'+ marker.properties.link +'"><div class="bv-popup-img bg-img--16-9" style="background-image: url({{site.img}}/content/'+marker.properties.id+'/bg-'+marker.properties.img+'.jpg); "></div><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></a>'))
+
+    //.setHTML('<a href="'+marker.properties.link+'"><div class="bv-popup-wrap "><img src="{{site.img}}/content/'+marker.properties.id+'/bg-'+marker.properties.img+'.jpg"><div class="boxpad--sm"><div class=" text text--md text--black text--bold text--upper text--left" >' + marker.properties.title + '</div><div class="text text--sm text--black">' + marker.properties.description + '<span class="text--red text--bold"> Mehr&nbsp;erfahren</span></div><div class="space--xxs"></div></div></div></a>'))
     .addTo(map);
   });
 
