@@ -9,3 +9,25 @@
   flight-tag: #
   img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/92119/ccabdc87_c2ba_4a4a_9181_f0b96a33f9c8.jpg"
   link: "http://bit.ly/2IgLMse"
+
+- title: "Orientglanz in der Morgenland-Metropole Abu&nbsp;Dhabi"
+  id: Radisson
+  location: Le Méridien Abu Dhabi, Vereinigte Arabische Emirate
+  description: Citytrip mit Toplage am Persischen Golf – inkl. Halbpension plus, inkl. Flügen, Transfers & Extras
+  price: 599
+  price-description: pro Person für 4 Nächte
+  saved: 14
+  flight-tag: true
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/43872/7d0f82c1_8c5a_4b19_b898_667b2993b582.jpg"
+  link: "http://bit.ly/2GdpdSN"
+
+- title: "Prachtvolle Oase am Persischen Golf"
+  id: Radisson
+  location: Radisson Blu Hotel, Abu Dhabi Yas Island, Abu Dhabi, Vereinigte Arabische Emirate
+  description: Erlebnisreiche Hauptstadt der Emirate – inkl. Halbpension, Strand-Transfers & Extras
+  price: 40
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 57
+  flight-tag: #
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/83886/c49c667b_e415_4e25_b099_74e2d2b74f37.jpg"
+  link: "http://bit.ly/2UjCz50"
