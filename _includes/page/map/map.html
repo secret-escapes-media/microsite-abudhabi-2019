@@ -347,7 +347,7 @@ map.on('load', function() {
   geojson.features.forEach(function(marker) {
 
     // create a HTML element for each feature
-    /**/var el = document.createElement('a');
+    var el = document.createElement('a');
     //el.innerHTML = 'onlick';
 
     //document.body.appendChild(el);
@@ -355,7 +355,6 @@ map.on('load', function() {
     el.id = marker.properties.id+'-'+marker.properties.img;
 
 
-  /*  */
   	//alert(marker.properties.id);
 
     // make a marker for each feature and add to the map

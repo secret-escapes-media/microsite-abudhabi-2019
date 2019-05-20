@@ -12,20 +12,7 @@ layout: default
   </div>
 </div>
 
-<!-- map --><!--
-<div id='map' ></div>
-<div id='bvmap' >
-  <div id="bvitem" onclick="toggleState(mylist)" >
-    <a class="text--upper">Land wählen:   <span class="tooltip bv-pick-country"><i class="fa fa-bars "></i><span class="tooltiptext">Bewege das Menü per Drag & Drop</span></span></a>
-    <div id="mylist" class="off">
-      {% for country in page.countries %}
 
-        <a href="{{country.url}}" target="_blank" class="popup-link" style="">{{country.title}} <i class="fa fa-external-link typicons-right bv-link" ></i> </a>
-
-      {% endfor %}
-      </div>
-  </div>
-</div>-->
 
 <div class="row row--xl-6-6 row--no-gutters ">
     <div class="col col--xl-5" >
@@ -75,12 +62,11 @@ layout: default
                <div class="bv-pin bv-kultur text text--sm text--normal">Für Kulturliebhaber</div>
                <div class="bv-pin bv-natur text text--sm text--normal">Für Naturmenschen</div>
                <div class="bv-pin bv-cities text text--sm text--normal">Für City-Fans</div>
-               
              </div>
            </div>
         </div>
   </div>
 </div>
 
-<!---->
+
 {% include page/map/map.html %}

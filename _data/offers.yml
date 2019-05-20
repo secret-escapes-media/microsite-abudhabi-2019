@@ -1,33 +1,33 @@
 
-- title: "Glamouröse Entspannung in Abu&nbsp;Dhabi"
-  id: Radisson
-  location: Radisson Blu Abu Dhabi Hotel & Resort Corniche, Abu Dhabi, Vereinigte Arabische Emirate
-  description: Entspannte Sonnentage am Arabischen Golf – inkl. All-inclusive
-  price: 90
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 52
-  flight-tag: #
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/92119/ccabdc87_c2ba_4a4a_9181_f0b96a33f9c8.jpg"
-  link: "http://bit.ly/2IgLMse"
-
-- title: "Orientglanz in der Morgenland-Metropole Abu&nbsp;Dhabi"
-  id: Radisson
-  location: Le Méridien Abu Dhabi, Vereinigte Arabische Emirate
-  description: Citytrip mit Toplage am Persischen Golf – inkl. Halbpension plus, inkl. Flügen, Transfers & Extras
-  price: 599
-  price-description: pro Person für 4 Nächte
-  saved: 14
+- title: "Mit Vollgas: F1 Grand Prix Abu Dhabi"
+  id: Aloft
+  location: Aloft Abu Dhabi, Vereinigte Arabische Emirate
+  description: Hochschalten in Abu Dhabi – inkl. Flügen, Transfers, Halbpension, Formel 1-Tickets & Extras
+  price: 1.199
+  price-description: pro Person - basierend auf 2 Personen für 3 Nächte
+  saved: 18
   flight-tag: true
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/43872/7d0f82c1_8c5a_4b19_b898_667b2993b582.jpg"
-  link: "http://bit.ly/2GdpdSN"
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/46948/eb92784c_f18a_4a83_bde8_520afd753ddc.jpg"
+  link: "http://bit.ly/2JtzLRN"
 
-- title: "Prachtvolle Oase am Persischen Golf"
-  id: Radisson
-  location: Radisson Blu Hotel, Abu Dhabi Yas Island, Abu Dhabi, Vereinigte Arabische Emirate
-  description: Erlebnisreiche Hauptstadt der Emirate – inkl. Halbpension, Strand-Transfers & Extras
-  price: 40
+- title: "Abu Dhabi mit Panoramablick"
+  id: Fairmont
+  location: Fairmont Bab Al Bahr, Abu Dhabi, Vereinigte&nbsp;Arabische&nbsp;Emirate
+  description: 5*-Luxustraum mit zwei Privatstränden – inkl. Frühstück oder Halbpension
+  price: 43
   price-description: pro Person - basierend auf 2 Personen
-  saved: 57
+  saved: 58
   flight-tag: #
-  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/83886/c49c667b_e415_4e25_b099_74e2d2b74f37.jpg"
-  link: "http://bit.ly/2UjCz50"
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/50624/ccb27797_82db_4e15_8331_2aab563c0486.jpg"
+  link: "http://bit.ly/2WO8wEx"
+
+- title: "Sheraton-Luxus am Strand von Abu Dhabi"
+  id: Sheraton
+  location: Sheraton Abu Dhabi Hotel & Resort, Abu Dhabi, Vereinigte&nbsp;Arabische&nbsp;Emirate
+  description: 5*-Luxustraum mit zwei Privatstränden – inkl. Frühstück oder Halbpension
+  price: 38
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 41
+  flight-tag: #
+  img: "https://d1x3cbuht6sy0f.cloudfront.net/sales/46251/a7f1f918_2b5c_4c25_ad99_2e00fd2de9f1.jpg"
+  link: "http://bit.ly/2Ek9EZ8"
